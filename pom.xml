@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.webguitoolkit</groupId>
+	<artifactId>wgt-bundle</artifactId>
+	<version>01.00.00-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>wgt-bundle</name>
+	<url>http://maven.apache.org</url>
+
+	<developers>
+		<developer>
+			<id>kaiserw</id>
+			<name>Wolfram Kaiser</name>
+			<email>wolfram.kaiser@infoserve.endress.com</email>
+		</developer>
+		<developer>
+			<id>zaretzkep</id>
+			<name>Peter Zaretzke</name>
+			<email>peter@17sprints.de</email>
+		</developer>
+	</developers>
+
+	<organization>
+		<name>Endress+Hauser Infoserve</name>
+		<url>http://www.webguitoolkit.org</url>
+	</organization>
+
+	<ciManagement>
+		<system>Continuum</system>
+		<url>http://isw600.infoserve.endress.com:8080/continuum</url>
+	</ciManagement>
+
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/webguitoolkit/wgt-project-template/issues</url>
+	</issueManagement>
+
+	<scm>
+		<connection>scm:git:git@github.com:webguitoolkit/wgt-bundle.git</connection>
+		<developerConnection>scm:git:git@github.com:webguitoolkit/wgt-bundle.git</developerConnection>
+		<url>git@github.com:webguitoolkit/wgt-bundle.git</url>
+	</scm>
+
+	<modules>
+		<module>../wgt-ui</module>
+		<module>../wgt-messagebox</module>
+		<module>../wgt-ui-addons</module>
+		<module>../wgt-components</module>
+		<module>../wgt-documentstore</module>
+		<module>../wgt-persistence</module>
+		<module>../wgt-project-template</module>
+	</modules>
+</project>
