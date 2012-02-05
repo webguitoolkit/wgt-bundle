@@ -45,12 +45,12 @@
 	</scm>
 
 	<modules>
+		<module>../wgt-project-template</module>
 		<module>../wgt-ui</module>
 		<module>../wgt-messagebox</module>
-		<module>../wgt-ui-addons</module>
 		<module>../wgt-components</module>
 		<module>../wgt-documentstore</module>
 		<module>../wgt-persistence</module>
-		<module>../wgt-project-template</module>
+		<module>../wgt-patterns</module>
 	</modules>
 </project>
