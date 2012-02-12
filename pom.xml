@@ -52,5 +52,6 @@
 		<module>../wgt-documentstore</module>
 		<module>../wgt-persistence</module>
 		<module>../wgt-patterns</module>
+		<module>../wgt-ui-archetype</module>
 	</modules>
 </project>
